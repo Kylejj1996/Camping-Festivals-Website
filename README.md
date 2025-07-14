@@ -25,17 +25,16 @@ A simple contact form where users can enter their name, email, and message to re
 ## 🛠️ Built With  
 - **HTML5** – for structure  
 - **CSS3** – for styling and layout  
-- 💻 No frameworks or JavaScript used – pure HTML & CSS
 
 ---
 
 ## 📸 Screenshots  
 
 ### Camping Festivals Guide Home Page
-![Home Page](/VisualImages/Home.png) 
+![Home Page](/VisualPreviews/Home.png) 
 ### Preparing Page
-![Preparing](/VisualImages/Preparing.png) 
+![Preparing](/VisualPreviews/Preparing.png) 
 ### Top Festivals Page
-![Top Festivals](/VisualImages/TopFestivals.png) 
+![Top Festivals](/VisualPreviews/TopFestivals.png) 
 ### More Info Page
-![More Info Screen](/VisualImages/MoreInfoForm.png) 
+![More Info Screen](/VisualPreviews/MoreInfoForm.png) 
