@@ -38,3 +38,21 @@ A simple contact form where users can enter their name, email, and message to re
 ![Top Festivals](/VisualPreviews/TopFestivals.png) 
 ### More Info Page
 ![More Info Screen](/VisualPreviews/MoreInfoForm.png) 
+
+---
+
+## 📬 Contact
+
+| Name           | Contact Info                                       |
+|----------------|----------------------------------------------------|
+| Kyle Johnson   | [Kylejj19@gmail.com](mailto:Kylejj19@gmail.com) |
+| LinkedIn       | [LinkedIn Profile](https://www.linkedin.com/in/kyle-johnson-845718335/) |
+
+---
+
+## 📄 License
+[GNU General Public License v3.0](/LICENSE)
+
+> This project is open-source under the GNU GPL v3. Contributions, forks, and feedback are welcome.
+
+---
