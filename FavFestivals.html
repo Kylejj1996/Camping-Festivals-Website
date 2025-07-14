@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--Description for web page-->
+    <meta name="description" content="Information request form" />
+    <!--Title for the webpage-->
+    <title>Request information form</title>
+    <!--Connecting the html document to the CSS-->
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <!--Adding fonts from google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto+Condensed:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <!--Internal styles of CSS-->
+    <style>
+      /*Adjusting the pictures on the page to be center and side by side under each festival description*/
+      .picFlex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      /*Adjusting the description term*/
+      dt {
+        text-align: center;
+        font-size: 25px;
+        font-weight: bolder;
+        padding: 15px;
+      }
+      /*Adding padding and an indent to the text on the page*/
+      dd {
+        padding: 15px;
+        text-indent: 2rem;
+      }
+      /*Getting rid of the underline and changing the color of the description term*/
+      dt a {
+        text-decoration: none;
+        color: #2b2b2b;
+      }
+
+      dt a:hover {
+          color: #F3DE8A;
+      }
+
+      /*Adding a border to the images on the page*/
+      img {
+        border: 5px solid #2b2b2b;
+        border-radius: 6px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      img:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+  <body class="body">
+    <div class="container">
+      <header>
+        <!--The Navigation of the website-->
+        <nav>
+          <ul>
+            <li><a href="index.html" title="Home page">Home</a></li>
+            <li><a href="preparing.html" title="Preparation page">Preparation</a></li>
+            <li><a href="FavFestivals.html" title="Favorite Festivals">Favorite Festivals</a></li>
+            <li><a href="requestInformation.html" title="Info Form">Request Info</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h1>My Top Festivals</h1>
+        <!--Description list for all of my top festivals-->
+        <dl>
+          <!--A link to the Electric Forest website-->
+          <dt>
+            <!--Description term-->
+            <a
+              href="https://www.electricforest.com/"
+              title="Electric Forest Home"
+              target="_blank"
+              >Electric Forest</a
+            >
+          </dt>
+          <dd>
+            <!--Description definition-->
+            Electric Forest is a Music Festival in Rothbury Michigan. It is a 4
+            day camping music festival in June starting on a thursday and ending
+            on sunday. This is my number one favorite music festival because of
+            the whole vibe. Everyone around you is so kind, caring, and
+            respectful. This festival doesnt usually have a super crazy lineup so
+            you have time to relax instead of constantly going to make it to see
+            someone. A big part of this festival is inside of a forest, where
+            there is art setup everywhere and hammocks everywhere to relax in.
+            They even have a scavenger hunt that you can do and if you finish you
+            get access to a secret area or to see a secret artist. This festival
+            has alot of walking, i would walk over 10 miles each day. Electric
+            Forest has around 8-10 stages throughout the entire festival, but they
+            are very spread out.
+          </dd>
+          <div class="picFlex">
+            <figure>
+              <!--Adding an image with the correct width and height-->
+              <img
+                src="Pictures/balloon.png"
+                alt="Electric Forest Hot air balloons."
+                width="500"
+                height="500"
+              />
+            </figure>
+            <figure>
+              <!--Adding an image with the correct width and height-->
+              <img
+                src="Pictures/EF2.png"
+                alt="Electric Forest Art"
+                width="500"
+                height="500"
+              />
+            </figure>
+          </div>
+          <!--A link to the Okeechobee website-->
+          <dt>
+            <!--Description term-->
+            <a
+              href="https://www.okeechobeefest.com/"
+              title="Okeechobee Home"
+              target="_blank"
+              >Okeechobee</a
+            >
+          </dt>
+          <dd>
+            <!--Description definition-->
+            Okeechobee is held in Okeechobee Florida. This is another camping
+            festival with a similar vibe to Electric Forest. It starts on a
+            thursday and ends on a sunday. There is a bid lake that you have
+            access to and they added sand so you can swim if you want to cool down
+            on a hot day. This Festival is usually held toward the beginning of
+            march so the weather gets warm, but not too hot. Okeechobee is a
+            pretty big festival, but i wouldnt say its as much walking as Electric
+            Forest. Okeechobee has 5-6 stages total throughout the festival.
+          </dd>
+          <div class="picFlex">
+            <figure>
+              <!--Adding an image with the correct width and height-->
+              <img
+                src="Pictures/Okeechobee.png"
+                alt="Okeechobee art"
+                width="500"
+                height="500"
+              />
+            </figure>
+          </div>
+          <!--A link to the EDC website-->
+          <dt>
+            <!--Description term-->
+            <a
+              href="https://lasvegas.electricdaisycarnival.com/"
+              title="EDC Home"
+              target="_blank"
+              >EDC Las Vegas</a
+            >
+          </dt>
+          <dd>
+            <!--Description definition-->
+            EDC Las Vegas is a 3 day music festival that is usually in may and
+            held in the Las Vegas Motor Speedway which is about 45 minutes from
+            the strip. The festival starts on Friday at 3pm and goes until sunrise
+            each day so by the time you get back to your hotel it will be around
+            8am the next day. This festival is massive and the stages are huge,
+            but this festival is not for the weak. There is alot of walking and if
+            you stay the entire time everyday, dont expect to get much sleep. EDC
+            has around 10 stages throughout the entire venue.
+          </dd>
+          <div class="picFlex">
+            <figure>
+              <!--Adding an image with the correct width and height-->
+              <img
+                src="Pictures/EDC1.png"
+                alt="EDC Las Vegas Flower Arch"
+                width="500"
+                height="500"
+              />
+            </figure>
+            <figure>
+              <!--Adding an image with the correct width and height-->
+              <img
+                src="Pictures/EDC2.png"
+                alt="EDC Las Vegas stage"
+                width="500"
+                height="500"
+              />
+            </figure>
+          </div>
+          <!--A link to the Lights All Night website-->
+          <dt>
+            <!--Description term-->
+            <a
+              href="https://lightsallnight.com/?gclid=CjwKCAiAjfyqBhAsEiwA-UdzJOczn52XqZo3nwNUJRYpYqOgtCROovRUU58TvFrW_xVTsbKdRZUgwxoCqycQAvD_BwE"
+              title="Lights All Night Home"
+              target="_blank"
+              >Lights All Night Dallas</a
+            >
+          </dt>
+          <dd>
+            <!--Description definition-->
+            Lights All Night is held in Dallas at the Market Hall. It is a 2 day
+            music festival held around New Years Eve. This is a nice little music
+            festival to go to for your first time or if you want to go a see a
+            couple people but dont want to break the bank. It has around 3 stages,
+            2 of which are the bigger stage and the other is super small usually
+            for locals to play.
+          </dd>
+          <div class="picFlex">
+            <figure>
+              <!--Adding an image with the correct width and height-->
+              <img
+                src="Pictures/LAN.png"
+                alt="Lights All Night Stage"
+                width="500"
+                height="500"
+              />
+            </figure>
+          </div>
+        </dl>
+      </main>
+      <!--The footer with a paragraph tag that has the copyright-->
+      <footer>
+        <p>
+          &copy; Copyright 2023 -
+          <a class="footDesign" href="mailto:kjjohnson138623@mymail.tstc.edu"
+            >Kyle Johnson</a
+          >. Fort Worth, TX. All rights reserved.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
