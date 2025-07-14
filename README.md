@@ -30,5 +30,12 @@ A simple contact form where users can enter their name, email, and message to re
 ---
 
 ## 📸 Screenshots  
-_Add screenshots here if you have them, such as the homepage or form page._  
-For example:
+
+### Camping Festivals Guide Home Page
+![Home Page](/VisualImages/Home.png) 
+### Preparing Page
+![Preparing](/VisualImages/Preparing.png) 
+### Top Festivals Page
+![Top Festivals](/VisualImages/TopFestivals.png) 
+### More Info Page
+![More Info Screen](/VisualImages/MoreInfoForm.png) 
